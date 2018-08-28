@@ -1,6 +1,6 @@
 var s = document.getElementsByTagName('span');
 var oneDay = 24 * 60 * 60 * 1000;
-var firstDate = new Date("00:00 26 August 2018 GMT+0530");var secondDate = new Date();
+var firstDate = new Date("00:00 29 August 2018 GMT+0530");var secondDate = new Date();
 var days = (firstDate.getTime() - secondDate.getTime()) / (oneDay);
 var hrs = (days - Math.floor(days)) * 24;
 var min = (hrs - Math.floor(hrs)) * 60;
